@@ -1,0 +1,28 @@
+test_access_is_object_scoped (pg_test_app.SecurityTests.test_access_is_object_scoped) ... ok
+test_admin_create_update_delete (pg_test_app.SecurityTests.test_admin_create_update_delete) ... ok
+test_admin_pages_and_export (pg_test_app.SecurityTests.test_admin_pages_and_export) ... ok
+test_csrf_blocks_login (pg_test_app.SecurityTests.test_csrf_blocks_login) ... ok
+test_grading_and_authorization (pg_test_app.SecurityTests.test_grading_and_authorization) ... ok
+test_logout_revokes_server_session (pg_test_app.SecurityTests.test_logout_revokes_server_session) ... ok
+test_other_teacher_is_denied (pg_test_app.SecurityTests.test_other_teacher_is_denied) ... ok
+test_registration_encrypts_phone_and_fixes_role (pg_test_app.SecurityTests.test_registration_encrypts_phone_and_fixes_role) ... ok
+test_seed_has_5000_rows_and_no_duplicates (pg_test_app.SecurityTests.test_seed_has_5000_rows_and_no_duplicates) ... ok
+test_session_expiry_and_headers (pg_test_app.SecurityTests.test_session_expiry_and_headers) ... ok
+test_sql_injection_does_not_authenticate (pg_test_app.SecurityTests.test_sql_injection_does_not_authenticate) ... ok
+test_student_workflow_and_xss_escaping (pg_test_app.SecurityTests.test_student_workflow_and_xss_escaping) ... ok
+test_test_score_computed_server_side (pg_test_app.SecurityTests.test_test_score_computed_server_side) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 4.272s
+
+OK
+ server_version 
+----------------
+ 18.6
+(1 row)
+
+ attempts | synthetic_attempts 
+----------+--------------------
+     5000 |               5000
+(1 row)
+
